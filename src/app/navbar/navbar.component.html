@@ -1,0 +1,52 @@
+
+    <mat-toolbar class="nav">
+
+      <button (click)="menubtnClicked()" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span>COIN DESK</span>
+      <span class="example-spacer"></span>
+
+      <div class="flex-container">
+
+        <ul>
+
+            <li>
+                <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+                    <mat-icon matBadge="0" matBadgeColor="warn">notifications</mat-icon>
+                  </button>
+            </li>
+
+            <li>
+                <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+                    <mat-icon matBadge="15" matBadgeColor="warn" >forum</mat-icon>
+                  </button>
+            </li>
+
+
+
+
+            <li>
+              <button mat-icon-button  class="example-icon" aria-label="Example icon-button with share icon">
+                  <mat-icon>summarize </mat-icon>
+                </button>
+
+
+          </li>
+
+          <li>
+              <button  mat-button [matMenuTriggerFor]="menu"> USER <img width="35px" height="35px" src="https://cdn-icons-png.flaticon.com/512/1177/1177568.png?w=826&t=st=1691852861~exp=1691853461~hmac=99db2a72fec54be7501a0fcadea7516df91ab1084d49a4bfc895dc7a53d68162" alt=""> </button>
+              <mat-menu class="menu" #menu="matMenu">
+              <button class="list" mat-menu-item>Profile</button>
+              <button class="list"  mat-menu-item>Log-Out</button>
+              </mat-menu>
+
+        </li>
+
+
+        </ul>
+
+
+      </div>
+
+    </mat-toolbar>

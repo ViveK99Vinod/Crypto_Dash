@@ -1,0 +1,41 @@
+.nav{
+    background-color:rgb(60, 5, 110);
+}
+
+
+.flex-container ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  li{
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+
+  }
+
+
+  span{
+    color: rgb(255, 255, 255);
+
+  }
+
+  button{
+    color: rgb(255, 255, 255);
+
+  }
+
+  .list{
+    color: black;
+  }
+
+

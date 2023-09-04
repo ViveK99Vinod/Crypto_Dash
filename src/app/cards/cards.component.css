@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+
+.card1{
+
+    width: 260px;
+    height: 190px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow:rgba(0, 0, 0, 0.158) 10px 10px 10px 10px;
+    
+}
+
+.icon{
+    font-size: 50px;
+    height: fit-content;
+    width: fit-content;
+}
+
+i{
+    font-size: 80px;
+}
+
+
+
+.color1{
+    background-image: linear-gradient(rgb(195, 0, 255), rgb(0, 156, 177));
+}
+.color2{
+    background-image: linear-gradient(rgb(195, 0, 255), rgb(0, 156, 177));
+}
+.color3{
+    background-image: linear-gradient(rgb(195, 0, 255), rgb(0, 156, 177));
+}
+
+
+
+h2,h3,h4{
+    font-family: 'Kanit', sans-serif;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+button{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 195, 255));
+    border-radius: 10px 0px 10px 0px ;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+button:hover{
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(140, 0, 255));
+    color: aliceblue;
+}
+
+
+.color3:hover{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+}
+.color2:hover{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+}
+.color1:hover{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+}
+
+
+
